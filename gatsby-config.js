@@ -4,8 +4,8 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `Hindernis`,
-    description: `Gear, Apparel & Accessories`,
+    title: `Namibbiltong`,
+    description: `Biltong`,
     author: `@stevegriesel`,
   },
   plugins: [
@@ -32,6 +32,21 @@ module.exports = {
         apiKey: process.env.SNIPCART_KEY,
         autopop: true
       }
+    },
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        custom: {
+          families: ["Pablo Std"],
+          urls: ["/fonts/fonts.css"],
+        },
+      },
+    },
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,

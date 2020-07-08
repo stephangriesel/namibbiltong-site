@@ -10,6 +10,8 @@ h1 {
   margin: 0;
 }
 
+//https://colorwise.io/211780/levelsfyi-salary-calculator
+
 :root {
   --mainPink: #ffa69eff;
   --mainYellowish: #faf3ddff;
@@ -20,10 +22,11 @@ h1 {
   --mainOffWhite: #faf6d8;
   --mainDark: #010101;
   --mainGrey: #767676;
+  --mainDarkRed: #7e1806;
 }
 
 body {
-  background: var(--mainDark);
+  background: var(--mainDarkRed);
   color: var(--mainWhite);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif !important;
@@ -31,6 +34,10 @@ body {
 
 section {
   height: 80vh;
+}
+
+.wrapper {
+  box-shadow: 0px 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .default-background {

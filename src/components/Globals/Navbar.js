@@ -51,7 +51,7 @@ export default class Navbar extends Component {
             <nav className="navbar navbar-expand-sm navbar-dark">
                 <Link to="/" className="navbar-brand fade-in">
                     <div className="logo-wrapper">
-                        <img className="logo" src={logo} alt="logo" />
+                        <p className="navbar-brand">Namib <span className="navbrand-font">Biltong</span></p>
                     </div>
                 </Link>
                 <button className="navbar-toggler" type="button" onClick={this.navbarHandler}>
@@ -70,9 +70,9 @@ export default class Navbar extends Component {
                                 );
                             })
                         }
-                        <li className="nav-item ml-sm-5 cart-icon toggle">
+                        {/* <li className="nav-item ml-sm-5 cart-icon toggle">
                             <button className="snipcart-checkout"><span className="bag"><FaShoppingCart /></span></button>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </nav>

@@ -3,6 +3,17 @@
   height: auto;
 }
 
+.navbar-brand {
+  font-family: "Pablo Std";
+  font-size: 2em;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.navbrand-font {
+  color: #d13a3f;
+  text-shadow: -1px -1px 0 #fde9c9, 1px -1px 0 #fde9c9, -1px 1px 0 #fde9c9, 1px 1px 0 #fde9c9;
+}
+
 .navbar {
   max-width: 980px;
   width: 100%;
