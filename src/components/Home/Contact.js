@@ -5,7 +5,7 @@ export default function Contact() {
     return (
 
 
-        <section className="contact py-3 fade-in">
+        <section className="contact py-5 fade-in">
             {/* <Title title="Contact Us" /> */}
             <div className="row">
                 <div className="col-10 col-sm-8 col-md-6 mx-auto">
