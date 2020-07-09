@@ -17,7 +17,7 @@ const IndexPage = ({ data }) => (
       title="Namib Biltong"
       styleClass="default-background"
     />
-    {/* <Info /> */}
+    <Info />
     {/* <LatestProducts /> */}
   </Layout >
 );
