@@ -27,7 +27,7 @@ h1 {
 
 body {
   background: var(--mainDarkRed);
-  color: var(--mainYellowish);
+  color: var(--mainOffWhite);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif !important;
 }
@@ -75,6 +75,16 @@ body {
   color: var(--mainWhite);
   transition: ease-in 0.5s;
 }
+.btn-whiteish {
+  border-color: var(--mainOffWhite);
+  color: var(--mainOffWhite);
+}
+
+.btn-whiteish:hover {
+  background: var(--mainGrey);
+  color: var(--mainWhite);
+  transition: ease-in 0.5s;
+}
 
 .footer {
   background: var(--mainGrey);
@@ -107,6 +117,12 @@ body {
   place-items: center;
   height: 500px;
   margin: 2rem 0;
+}
+
+ul,
+li {
+  margin: 0;
+  list-style: none;
 }
 
 /* Animations */
