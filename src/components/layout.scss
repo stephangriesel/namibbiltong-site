@@ -125,6 +125,16 @@ li {
   list-style: none;
 }
 
+.col-wrapper {
+  max-width: 980px;
+}
+
+.two-col-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  place-items: center;
+}
+
 /* Animations */
 
 .fade-in {

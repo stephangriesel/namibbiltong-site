@@ -150,6 +150,18 @@ li {
   list-style: none;
 }
 
+.col-wrapper {
+  max-width: 980px;
+}
+
+.two-col-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  place-items: center;
+}
+
 /* Animations */
 .fade-in {
   -webkit-animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;

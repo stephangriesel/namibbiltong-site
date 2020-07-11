@@ -9,7 +9,7 @@ export default function Contact() {
             {/* <Title title="Contact Us" /> */}
             <div className="row">
                 <div className="col-10 col-sm-8 col-md-6 mx-auto">
-                    <form action="https://formspree.io/annie.leroux@outlook.com"
+                    <form action="https://formspree.io/sgriesel@gmail.com"
                         method="POST">
                         <div className="form-group">
                             {/* <label htmlFor="name">Name</label> */}
@@ -27,20 +27,26 @@ export default function Contact() {
                     </form>
                 </div>
             </div>
-            <div className="row">
-                <div className="mx-auto">
-                    <ul>
-                        <li>65 Van Den Dool Road</li>
-                        <li>Nuffield </li>
-                        <li>Springs</li>
-                        <li>1559</li>
-                    </ul><br />
-                    <ul>
-                        <li>Contact: 0844567891</li>
-                        <li>Landline Number: 011 818 0062</li>
-                    </ul>
+            <div className="col-wrapper mx-auto">
+                <div className="two-col-grid">
+                    <div class="mb-3">
+                        <ul>
+                            <li><strong>Contact/Whatsapp:</strong> 0844567891</li>
+                            <li><strong>Landline Number:</strong> 011 818 0062</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>65 Van Den Dool Road</li>
+                            <li>Nuffield </li>
+                            <li>Springs</li>
+                            <li>1559</li>
+                        </ul>
+                    </div>
+
                 </div>
             </div>
+
         </section>
 
     )
