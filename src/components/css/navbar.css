@@ -4,6 +4,7 @@
 }
 
 .navbar-brand {
+  margin-right: 0;
   font-family: "Pablo Std";
   font-size: 2em;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;

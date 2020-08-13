@@ -7,12 +7,15 @@ export default function Info() {
         <section className="infoBlock">
             <section>
                 <div className="container"></div>
-                <Title title="our story"></Title>
+                <Title title="18 years of prime free-range and grain-fed South African meat and biltong"></Title>
                 <div className="row">
                     <div className="col-10 col-sm-8 mx-auto text-center">
-                        <p className="lead mb-5">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem commodi iusto, aspernatur rerum tempore ea error reprehenderit eveniet illo quisquam dolore culpa soluta libero aperiam corporis repudiandae consequuntur fugiat eligendi quos ad perspiciatis velit recusandae deserunt animi? Eligendi, atque! Eligendi molestias excepturi quae fugit deleniti illo quisquam possimus doloremque.
-                    </p>
+                        <div className="lead mb-5">
+                            <p>Namib Biltong started in 2002 in the Western Cape and later expanded to Gauteng and the rest of Africa.
+                            It is a family-owned company that supplies meat and biltong to major retail outlets in South Africa and Africa.
+                            Deliveries are done extensively throughout South Africa with our fleet of merchandisers and representatives.
+We have done extensive research and are market leaders in pre-packed biltong development which ensures a longer shelf-life for our products.  All our facilities comply with all major food management syste</p>
+                        </div>
                         {/* <Link to="/about">
                             <button className="btn text-uppercase btn-yellowish">About</button>
                         </Link> */}
