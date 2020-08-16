@@ -168,6 +168,20 @@ li {
   animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
+/* Contact Page */
+.contact-address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact-address ul {
+  margin: 0 0.5em;
+}
+
 @-webkit-keyframes fade-in {
   0% {
     opacity: 0;

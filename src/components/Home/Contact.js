@@ -35,12 +35,20 @@ export default function Contact() {
                             <li><strong>Landline Number:</strong> 011 818 0062</li>
                         </ul>
                     </div>
-                    <div>
+                    <div className="contact-address">
                         <ul>
+                            <li><strong>Gauteng</strong></li>
                             <li>65 Van Den Dool Road</li>
                             <li>Nuffield </li>
                             <li>Springs</li>
                             <li>1559</li>
+                        </ul>
+                        <ul>
+                            <li><strong>Western Cape</strong></li>
+                            <li>Oudepont Straat</li>
+                            <li>Wellington Industrial Park </li>
+                            <li>Springs</li>
+                            <li>Western Cape</li>
                         </ul>
                     </div>
 
