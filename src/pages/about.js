@@ -11,7 +11,7 @@ import Info from '../components/Home/Info'
 
 const AboutPage = ({ data }) => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="About Us" />
     {/* <BackgroundSection
       img={data.img.childImageSharp.fluid}
       title="About Us"
