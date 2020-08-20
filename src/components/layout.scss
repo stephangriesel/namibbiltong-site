@@ -27,7 +27,7 @@ h1 {
 
 body {
   background: var(--mainDarkRed);
-  color: var(--mainOffWhite);
+  color: var(--mainWhite);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif !important;
 }
@@ -87,8 +87,11 @@ body {
 }
 
 .footer {
-  background: var(--mainGrey);
-  color: var(--mainOffWhite);
+  background: var(--mainDarkRed);
+  color: var(--mainWhite);
+  a {
+    color: var(--mainWhite);
+  }
 }
 
 .menu {
@@ -133,6 +136,21 @@ li {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   place-items: center;
+}
+
+.prd-list {
+  display:flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  width:100%;
+}
+
+.prd-img {
+  margin:10px;
+  // picture {
+  //   width:200px;
+  // }
 }
 
 /* Animations */

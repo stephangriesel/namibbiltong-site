@@ -12,15 +12,15 @@ import Menu from '../components/Home/Menu'
 
 
 const ListProductsPage = ({ data }) => (
-    <Layout>
-        <SEO title="Products" />
-        {/* <BackgroundSection
+  <Layout>
+    <SEO title="Products" />
+    {/* <BackgroundSection
       img={data.img.childImageSharp.fluid}
       title="Products"
       styleClass="about-background"
     /> */}
-        <Menu items={data.menu} />
-    </Layout >
+    <Menu items={data.menu} />
+  </Layout >
 );
 
 export const query = graphql`
@@ -42,7 +42,7 @@ export const query = graphql`
         price
         category
         image {
-          fixed(width:50,height:50){
+          fixed(width:200,height:250){
             ...GatsbyContentfulFixed
           }
         }

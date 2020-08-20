@@ -62,7 +62,7 @@ class Menu extends Component {
                                     {this.state.priceListItems.map(({ node }) => {
                                         return (
 
-                                            <div key={node.id} className="col-11 col-md-6 my-3 d-flex mx-auto swing-in-top-fwd">
+                                            <div key={node.id} className="prd-list mx-auto swing-in-top-fwd">
                                                 <div className="prd-img"><Img className="rounded" fixed={node.image.fixed} /></div>
                                                 <div className="flex-grow-1 px-3 prd-item">
                                                     <div className="d-flex">

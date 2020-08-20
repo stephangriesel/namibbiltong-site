@@ -20,8 +20,9 @@ const Layout = ({ children }) =>
     <div className="wrapper">
       {children}
 
-      {/* <Footer /> */}
     </div>
+
+    <Footer />
   </>
 
 
