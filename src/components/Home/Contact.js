@@ -31,7 +31,7 @@ export default function Contact() {
                 <div className="two-col-grid">
                     <div class="mb-3">
                         <ul>
-                            <li><strong>Contact/Whatsapp:</strong> 0844567891</li>
+                            <li><strong>Contact/Whatsapp:</strong> 0844567891/0797954953</li>
                             <li><strong>Landline Number:</strong> 011 818 0062</li>
                         </ul>
                     </div>
