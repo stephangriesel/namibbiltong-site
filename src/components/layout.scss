@@ -37,7 +37,7 @@ body {
 }
 
 .default-background {
-  min-height: 90vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -46,7 +46,8 @@ body {
 }
 
 .about-background {
-  min-height: 80vh;
+  height:70vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -87,6 +88,7 @@ body {
 }
 
 .footer {
+  margin:1em 0;
   background: var(--mainDarkRed);
   color: var(--mainWhite);
   a {
@@ -95,11 +97,11 @@ body {
 }
 
 .menu {
-  min-height: 80vh;
+  min-height: 100vh;
 }
 
 .contact {
-  min-height: 50vh;
+  min-height: 100vh;
 }
 
 /* Bootstrap Override*/
@@ -118,7 +120,7 @@ body {
 .infoBlock {
   display: grid;
   place-items: center;
-  height: 500px;
+  min-height: 100vh;
   margin: 2rem 0;
 }
 
