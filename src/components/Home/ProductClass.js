@@ -1,3 +1,6 @@
+// SNIPCART NOT CURRENTLY USED FOR THIS SITE
+
+
 // import React, { Component } from 'react'
 // import Title from '../Globals/Title'
 // import Img from 'gatsby-image'
@@ -94,7 +97,7 @@
 //                                                 data-item-name={node.title}
 //                                                 data-item-price={node.price}
 //                                                 data-item-image={node.image.fixed.src}
-//                                                 data-item-url="https://happyskin.netlify.app"
+//                                                 data-item-url="{ADD_YOUR_URL_HERE}"
 //                                             >Add</button>
 
 //                                         </div>

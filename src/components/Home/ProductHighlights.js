@@ -1,3 +1,5 @@
+// SNIPCART NOT CURRENTLY USED FOR THIS SITE
+
 // import React from 'react'
 // import Product from './Product'
 // import Title from '../Globals/Title'
